@@ -4,4 +4,5 @@ Chrome Extension Playground
 
 ------
 # Acknowledgements
-* this repositor initially created from a template by Nate McIntyre https://github.com/tsheets/Chrome-Extension-Template
+* This repositor initially created from a template by Nate McIntyre https://github.com/tsheets/Chrome-Extension-Template
+* https://developer.chrome.com/extensions/getstarted
