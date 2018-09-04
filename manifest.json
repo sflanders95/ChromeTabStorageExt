@@ -2,16 +2,16 @@
     "name": "myChromeExt",
     "version": "1.0",
     "author": "Steven Flanders",
-    "description": "Build an Extension!",
-    "permissions": ["*://*/* ", "tabs", "activeTab", "declarativeContent", "storage"],
+    "description": "Save Current Open Tabs",
+    "permissions": ["tabs", "activeTab", "declarativeContent", "storage", "*://*/* "],
     "background": {
-      "scripts": ["js/main.js"],
+      "scripts": ["js/background.js"],
       "persistent": false
     },
     "page_action": {
       "default_popup": "html/main.html"
     },
+    "options_page": "html/options.html",
+    "orther_page": "html/options.html",
     "manifest_version": 2
 }
-
-  
