@@ -21,7 +21,18 @@
                 <div id="options-area">
                     <div class="control-group">
 
-                        <a href="chromeTabs.html">View Chrome Tabs</a>         
+                        <div class="tab">
+                            <button id="CurrentTabsBtn" class="tablinks">Current Tabs</button>
+                            <button id="StoredTabsBtn"  class="tablinks">Stored Tabs</button>
+                        </div>
+                        <div id="CurrentTabsDiv" class="controls"> 
+                            <div id="cDiv"></div> 
+                            <button id="save-options-button" class="btn btn-success">Save These Tab URLS</button>  
+                        </div>           
+                        <div id="StoredTabsDiv" class="controls">
+                            <div id="sDiv"></div>
+                            <button id="restore-options-button" class="btn btn-success">Restore These Tabs</button>
+                        </div>             
 
                     </div>
                 </div>
