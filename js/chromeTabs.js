@@ -1,12 +1,12 @@
 'use strict';
 /*
-** file: js/options.js
-** description: javascript code for "html/options.html" page
+** file: js/chromeTabs.js
+** description: javascript code for "html/chromeTabs.html" page
 */
 var j_data; /* { "tabs": [{"title":"theTitle", "url": "theUrl"}] }  */
 
 function init_options () {
-    console.log("function: init_options. " + new Date());
+    console.log("chromeTabs.js::function: init_options. " + new Date());
     toggleTab(0);
 
     //var stored_tabs = localStorage['stored_tabs'];
